@@ -1,0 +1,16 @@
+.message{
+    width: fit-content;
+    margin: 15px;
+}
+.message_user{
+    width: fit-content;
+    margin: 15px;
+    margin-left: auto !important;
+}
+.user_card{
+    background-color: #0984e3 !important;
+    color: #fff !important;
+}
+.guest_card{
+    background-color: #c8d6e5 !important;
+}

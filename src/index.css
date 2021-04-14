@@ -1,0 +1,35 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+html{
+  font-size: 16px;
+}
+h2{
+  text-align: center;
+  margin-top: 2rem;
+}
+.forAlign{
+  text-align: center;
+}
+.app_form{
+  padding: 1.5rem;
+  padding-left: 2rem;
+  position: fixed;
+  bottom: 0;
+  z-index: 3;
+  width: 100%;
+  background-color: #cfecee;
+}
+.app_form .app_formcontroll{
+  display: flex !important;
+  flex-direction: row;
+}
+.app_button{
+  flex: 0.5;
+}
+.app_input{
+  flex: 1;
+}
